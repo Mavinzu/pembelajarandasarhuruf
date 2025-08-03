@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kuis Belajar Huruf</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/page/kuis.css"/>
+  <script src="js/kuis.js"></script>
+
+</head>
+<body>
+
+<header>
+  <h1>Kuis Belajar Huruf</h1>
+  <p><em>Uji pengetahuanmu tentang huruf!</em></p>
+</header>
+
+<div class="soal">
+  <p>1. Apa huruf pertama dari kata <strong>Apel</strong>?</p>
+  <input type="text" id="soal1">
+  <p id="soal1Feedback" class="feedback"></p>
+</div>
+
+<div class="soal">
+  <p>2. Apa huruf pertama dari kata <strong>Bola</strong>?</p>
+  <input type="text" id="soal2">
+  <p id="soal2Feedback" class="feedback"></p>
+</div>
+
+<div class="soal">
+  <p>3. Apa huruf pertama dari kata <strong>Ceri</strong>?</p>
+  <input type="text" id="soal3">
+  <p id="soal3Feedback" class="feedback"></p>
+</div>
+
+<div class="soal">
+  <p>4. <strong>D</strong> adalah huruf pertama dari kata apa?</p>
+  <select id="soal4">
+    <option value="">-- Pilih --</option>
+    <option value="durian">Durian</option>
+    <option value="apel">Apel</option>
+    <option value="kuda">Kuda</option>
+  </select>
+  <p id="soal4Feedback" class="feedback"></p>
+</div>
+
+<div class="soal">
+  <p>5. Apa huruf pertama dari kata <strong>Elang</strong>?</p>
+  <input type="text" id="soal5">
+  <p id="soal5Feedback" class="feedback"></p>
+</div>
+
+<div class="soal">
+  <p>6. Apa huruf pertama dari kata <strong>Fanta</strong>?</p>
+  <input type="text" id="soal6">
+  <p id="soal6Feedback" class="feedback"></p>
+</div>
+
+<div class="soal">
+  <p>7. Apa huruf pertama dari kata <strong>Gajah</strong>?</p>
+  <input type="text" id="soal7">
+  <p id="soal7Feedback" class="feedback"></p>
+</div>
+
+<div class="soal">
+  <p>8. Apa huruf pertama dari kata <strong>Hutan</strong>?</p>
+  <input type="text" id="soal8">
+  <p id="soal8Feedback" class="feedback"></p>
+</div>
+
+<div class="soal">
+  <p>9. Apa huruf pertama dari kata <strong>Ikan</strong>?</p>
+  <input type="text" id="soal9">
+  <p id="soal9Feedback" class="feedback"></p>
+</div>
+
+<div class="soal">
+  <p>10. Manakah dari berikut ini yang dimulai dengan huruf <strong>M</strong>?</p>
+  <select id="soal10">
+    <option value="">-- Pilih --</option>
+    <option value="mobil">Mobil</option>
+    <option value="nanas">Nanas</option>
+    <option value="pisang">Pisang</option>
+  </select>
+  <p id="soal10Feedback" class="feedback"></p>
+</div>
+
+<button class="btn" onclick="cekSemuaJawaban()">Periksa Semua Jawaban</button>
+<p id="hasilTotal"></p>
+
+<footer style="text-align: center; margin-top: 30px;">
+  <p><em>&copy; 2025 Maulana. All Rights Reserved.</em></p>
+</footer>
+
+</body>
+</html>
